@@ -1,0 +1,911 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.cabeçalho{
+	height: 100px;
+
+	
+}
+
+.cabecalho_int{
+	width: 100%;
+	max-width: 980px;
+	height: 100px;
+	margin: auto;
+	display: flex;
+	
+}
+
+
+.logo{
+	display: flex;
+	flex:1;
+}
+
+.logo img{
+	padding-top: 20px;
+}
+
+
+.menu{
+	width: 100%;
+	height: 100px;
+	
+	font-family: arial;
+	display: flex;
+	flex:3;
+	line-height: 60px;
+}
+
+
+.menu ul {
+	list-style: none;
+	position: relative;
+
+	
+
+
+}
+
+.menu ul li {
+	width: 140px;
+	float: left;
+
+}
+
+.menu a{
+	padding: 15px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	
+}
+
+#bx{
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+.menu ul ul {
+	position: absolute;
+	visibility: hidden;
+	height: 200px;
+}
+
+.menu ul li:hover ul{
+	visibility: visible;
+
+}
+
+.menu ul ul li {
+	float: none;
+	border: 1px solid white;
+}
+
+.menuMobile{
+	height: 60px;
+	width: 60px;
+	margin-bottom: 30px;
+	margin-top: 40px;
+    margin-left: 50px;
+    display: none;
+
+}
+
+.quebra_1,.quebra_2,.quebra_3{
+	height: 1px;
+	background-color: #294e85;
+	margin-top: 10px;
+	padding-top: 6px;
+	display: none;
+	
+}
+
+
+
+
+
+.banner{
+	width: 100%;
+	height: 580px;
+	background-image: url(../img/fundohome.jpg);
+	background-position: center;
+	background-size: cover;
+	
+
+}
+
+.banner_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 580px;
+	display: flex;
+}
+.banner_int_tittle{
+	height: 300px;
+	width: 980px;
+	
+	margin: auto;
+
+}
+
+h1{
+
+	font-size: 108px;
+	margin-top: -30px;
+	text-align: center;
+	color: white;
+}
+
+h3{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+
+button{
+	height: 53px;
+	width: 200px;
+	color: white;
+	background-color: #f16876;
+	border:none;
+	font-size: 16px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+
+
+
+}
+button a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+.servicos{
+	height: 453px;
+
+	
+}
+
+.servicos_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 453px;
+	display: flex;
+}
+
+.grafico{
+	display: flex;
+	flex: 1;
+	
+}
+
+.desc{
+	display: flex;
+	flex: 1;
+	
+	flex-direction: column;
+
+}
+
+.grafico img{
+	height: 320px;
+	width: 320px;
+	display: block;
+	margin:auto;
+	
+	
+}
+
+#serv{
+	
+	
+	font-size: 31px;
+	color: black;
+	padding-top: 20px;
+	font-family: ubuntu;
+}
+#text{
+	padding-top: 25px;
+	font-size: 16px;
+	text-align: left;
+
+
+}
+
+#ns{
+
+	height: 53px;
+	width: 200px;
+	color: white;
+	background-color: #f16876;
+	border:none;
+	font-size: 16px;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	margin-left: 0px;
+
+}
+
+.equipe{
+	height: 418px;
+	background-color: #294e85;
+}
+
+.equipe_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 418px;
+	display: flex;
+}
+
+.leftside{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+}
+
+.rigthside{
+	display: flex;
+	flex: 1;
+	
+}
+
+.equipe_tittle{
+	font-size: 31px;
+	color: white;
+	padding-top: 50px;
+	font-family: ubuntu;
+
+	
+}
+
+.equipe_desc{
+	padding-top: 25px;
+	font-size: 16px;
+	text-align:left;
+	padding-right: 15px;
+	font-family: ubuntu;
+	color: white;
+
+}
+
+.rigthside img{
+	height: 320px;
+	width: 320px;
+	display: block;
+	margin:auto;
+	
+	
+}
+
+.clientes{
+	height: 500px;
+}
+
+.clientes_int{
+	margin:auto;;
+	width: 100%;
+	max-width: 980px;
+	display: flex;
+	height: 500px;
+	flex-direction: column;
+
+}
+
+.clientes_tittle{
+	padding-top: 40px;
+	font-size: 40px;
+	padding-left: 0px;
+	font-family: ubuntu;
+}
+
+article{
+	
+}
+
+
+article ul{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	list-style: none;
+
+
+}
+
+article ul li {
+	padding-left: 0px;
+	padding-right: 90px;
+	padding-top: 15px;
+  
+	
+}
+
+.artigos{
+	height: 530px;
+	margin-top: 30px;
+	background-color: #294e85;
+}
+
+.artigos_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 530px;
+	display: flex;
+	flex-direction: column;
+	
+}	
+
+.artigos_text{
+	font-size: 40px;
+	padding-top: 30px;
+	display: flex;
+	font-family:ubuntu;
+	color: white;
+}
+
+.container{
+	display: flex;
+	height: 300px;
+	padding-top: 50px;
+	
+
+}
+
+.cont1{
+	display: flex;
+	flex-direction: column;
+	flex:1;
+	background-color: white;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+
+.cont_1_img img{
+	height: 180px;
+	width: 100%;
+}
+
+.cont1_txt{
+	margin-top: 10px;
+	font-size: 20px;
+	color:#989999;
+	text-align: center;
+}
+
+.cont2{
+	display: flex;
+	flex:1;
+	margin-left: 20px;
+	margin-right: 20px;
+	flex-direction: column;
+	background-color: white;
+}
+
+.cont3{
+	display: flex;
+	flex:1;
+	margin-left: 20px;
+	margin-right: 20px;
+	flex-direction: column;
+	background-color: white;
+}
+
+.quebra{
+	width: 80%;
+	height: 2px;
+	background-color: #ccc;
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+
+#commit{
+	height: 30px;
+	margin-top: 10px;
+	width: 80%;
+	margin-left: 10%;
+	border:1px solid white;
+	border-radius: 20px;
+}
+
+.contato{
+	height: 291px;
+}
+
+.contato_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 291px;
+	display: flex;
+
+}
+
+.info{
+	display: flex;
+	flex:3;
+	
+	flex-direction: column;
+}
+.info p1{
+	font-size: 40px;
+	text-align: center;
+	color: black;
+	padding-top: 100px;
+	font-family: ubuntu;
+
+}
+
+.info p2{
+	font-size: 20px;
+	text-align: center;
+	color: black;
+}
+
+.btn{
+	display: flex;
+	flex:1;
+	
+}
+
+.rodape{
+	height: 186px;
+    background-color: black;
+}
+
+.rodape_int{
+	width: 100%;
+	max-width: 980px;
+	margin: auto;
+	height: 186px;
+	display: flex;
+
+}
+
+.col1{
+	display: flex;
+	flex:1;
+	margin-top:30px;
+	margin-bottom: 30px;
+	flex-direction: column;
+	height: 150px;
+
+}
+
+.casaimg,.mail{
+	display: flex;
+	justify-content: center;
+	height: 80px;
+	padding-top: 40px;
+}
+
+.endereco{
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
+.col2{
+	display: flex;
+	flex:1;
+	
+	margin-top:30px;
+	margin-bottom: 30px;
+	height: 150px;
+	flex-direction: column;
+}
+
+.col3{
+	display: flex;
+	flex:1;
+	
+	margin-top:30px;
+	margin-bottom: 30px;
+	height: 150px;
+	flex-direction: column;
+}
+
+.redesSociais{
+	margin: auto;
+
+}
+
+.redesSociais ul{
+	display: flex;
+	padding-top: 50px;
+}
+
+
+
+#top{
+	padding-top: 10px;
+}
+
+.redesSociais ul li{
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+
+#linha_2{
+	width: 20%;
+	height: 3px;
+	background-color: white;
+}
+
+#linha_3{
+	width: 12%;
+	height: 3px;
+	background-color: #B3BFE7;
+}
+
+#linha_4{
+	width: 12%;
+	height: 3px;
+	background-color: white;
+}
+
+#submenu{
+	height: 100px;
+	width: 100px;
+	background-color: black;
+	position: absolute;
+}
+
+
+
+@media only screen and (min-width:768px) and (max-width:985px){
+
+	.cabecalho_int,	
+	.banner_int,
+	.servicos_int,
+	.equipe_int,
+	.clientes_int,
+	.artigos_int,
+	.contato_int,
+	.rodape_int{
+		max-width: 768px;
+	}
+
+	.menu ul li {
+    width: 100px;
+    float: left;
+	}
+
+	#bx {
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+
+	}
+
+	.servicos,.servicos_int{
+		height: 500px;
+	}
+
+	.equipe_int{
+		margin-left: 20px;
+	}
+
+	.clientes,.clientes_int{
+		height: 530px;
+	}
+
+	.clientes_int{
+		margin-left: 20px;
+	}
+
+	article ul li {
+    padding-left: 0px;
+    padding-right: 45px;
+    padding-top: 15px;
+	}
+
+	.artigos,.artigos_int{
+		margin-top: 0px;
+	}
+
+	.artigos_text{
+		padding-left: 20px;
+	}
+	
+	#linha_4{
+		margin-left: 20px;
+	}	
+
+	.info p2 {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+	}
+
+}	
+
+
+@media only screen and (max-width:767px){
+
+
+	.cabecalho_int,	
+	.banner_int,
+	.servicos_int,
+	.equipe_int,
+	.clientes_int,
+	.artigos_int,
+	.contato_int,
+	.rodape_int{
+		max-width: 320px;
+	}
+
+	.cabecalho,.cabecalho_int{
+		height: 130px;
+	}
+
+	.logo{
+		width: 50%;
+	}
+
+	.logo img{
+		width: 160px;
+    	padding-top: 35px;
+	}
+
+	.menu ul{
+		position: absolute;
+		height: 550px;
+		display: block;
+		background-color: rgba(197,191,193,0.25);
+		z-index: 999;
+	}
+
+	.menu ul ul {
+		position: static;
+		overflow: hidden;
+		max-height: 0;
+		transition: all .4s;
+	}
+
+	.menu ul li:hover ul{
+		height: auto;
+		max-height: 200px;
+	}
+
+	.menu a {
+    padding: 10px;
+	}
+
+	.menuMobile{
+		display: block;
+	}
+
+	.quebra_1,.quebra_2,.quebra_3{
+	display: block;
+	
+	}
+
+	.menu a {
+		color: white;
+	}
+
+	.banner,.banner_int{
+		height: 650px;
+	}
+
+	.banner_int_tittle h1, h3{
+		display: none;
+	}
+
+	button{
+		margin-top: 400px;
+	}
+
+	.grafico{
+		display: none;
+	}
+
+	#serv {
+    font-size: 31px;
+    color: black;
+    padding-top: 20px;
+    font-family: ubuntu;
+    padding-left: 20px;
+	}
+
+	#linha_1{
+	width: 25%;
+	height: 3px;
+	background-color: #B3BFE7;
+	margin-left: 20px;
+	}
+
+	.servicos,.servicos_int{
+	height: 580px;
+	}
+
+	#text {
+    padding-top: 25px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+	}
+
+	#ns {
+    
+    margin-left: 20px;
+	}
+
+	.rigthside {
+    display: none;
+	}
+
+	.equipe,.equipe_int{
+		height: 470px;
+	}
+
+	.equipe_tittle {
+    padding-left: 20px;
+    padding-top: 20px;
+	}
+
+	#linha_2{
+	
+	margin-left: 20px;
+	}
+
+	.equipe_desc {
+   	padding-left: 20px;
+    padding-right: 20px;
+	}
+
+	.clientes,.clientes_int{
+		height: 580px;
+	}
+
+	.clientes_tittle {
+  
+    padding-left: 20px;
+	}
+
+	#linha_3 {
+    width: 25%;
+    margin-left: 20px;
+    
+	}
+
+	article{
+		margin-bottom: 40px;
+	}
+
+	article ul li {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+
+	}
+
+	article ul li img{
+	 height: 40px;
+    width: 100px;
+    padding-top: 40px;
+	}
+
+	.artigos,.artigos_int{
+		height: 1100px;
+	}
+
+	.artigos_text {
+      padding-left: 20px;
+	}
+
+	#linha_4{
+		margin-left: 20px;
+		width: 25%;
+	}
+
+	.container {
+    display: flex;
+    height: 300px;
+    padding-top: 50px;
+    flex-direction: column;
+	}
+
+	.cont1,.cont2{
+		margin-bottom: 30px;
+	}
+
+	.contato,.contato_int{
+		height: 350px;
+	}
+
+	.contato_int{
+		flex-direction: column;
+	}
+
+	.info p1 {
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+    font-family: ubuntu;
+	}
+
+	.btn {
+    margin-left: 40px;
+    margin-top: -50px;
+	}
+
+	.rodape,.rodape_int{
+    height: 350px;
+    
+	}
+
+	.rodape_int{
+		flex-direction: column;
+	}
+
+	    
+
+
+	.redesSociais {
+    margin-top: 200px;
+    padding-left: 10px;
+	}
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}	
+
+

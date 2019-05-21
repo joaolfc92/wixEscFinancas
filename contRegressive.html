@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contagem Regressiva</title>
+	<meta charset="utf-8">
+	<style>
+		#tempo{
+			font:bold 150px arial;
+			padding: 50px;
+			color:#f90;
+			
+			width: 400px;
+			height: 200px;
+			text-align: center;
+			line-height: 200px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+
+		body{
+			background-color: black;
+		}
+		
+		
+	</style>
+	<script>
+		var count = new Number();
+		var	count = 11;
+
+		function start(){
+			if((count -1)>=0){
+				count = count -1;
+				if(count==0){
+					count = "Fim";
+					window.location.href="index.html";
+				}else if (count<10){
+					count = "0"+count;
+				}
+				tempo.innerText=count;
+				setTimeout('start()',1000)
+			}
+		}
+
+
+	</script>
+</head>
+<body onload="start()">
+	<div id="tempo"></div>
+
+</body>
+</html>
